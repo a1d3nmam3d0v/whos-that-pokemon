@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Who's that Pokemon!?</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header><h1>Who's that Pokemon!?</h1></header>
+
+        <!-- gen1 - 1, 151
+        gen2 - 152, 251
+        gen3 - 252, 386
+        gen4 - 387, 493
+        gen5 - 494, 649
+        gen6 - 650, 721
+        gen7 - 722, 809
+        gen8 - 810, 905
+        gen9- 906, 922 ??
+        allgens - 1,905 or 922 -->
+
+        <!-- <fieldset>
+            <legend>Choose a generation:</legend>
+            <form>
+                <div><input type="radio" class="gen-pick" id="gen-1" value="gen-1" checked /><label for="1">Gen 1</label></div>
+                <div><input type="radio" class="gen-pick" id="gen-2" value="gen-2" /><label for="gen-2">Gen 2 </label></div>
+                <div><input type="radio" class="gen-pick" id="gen-3" value="gen-3" /><label for="gen3">Gen 3 </label></div>
+                <div><input type="radio" class="gen-pick" id="gen-4" value="gen-4" /><label for="gen4">Gen 4 </label></div>
+                <div><input type="radio" class="gen-pick" id="gen-5 " value="gen-5" /><label for="gen-5">Gen 5</label></div>
+                <div><input type="radio" class="gen-pick" id="gen-6" value="gen-6" /><label for="gen6">Gen 6</label></div>
+                <div><input type="radio" class="gen-pick" id="gen-7" value="gen-7" /><label for="gen7">Gen7</label></div>
+                <div><input type="radio" class="gen-pick" id="gen-8" value="gen-8" /><label for="gen8">Gen 8</label></div>
+                <div><input type="radio" class="gen-pick" id="all-gen" value="all-gen" /><label for="allGens">All</label></div>
+            </form>
+        </fieldset> -->
+        <div id="buttons"></div>
+
+        <main>
+            <h2>
+                <span class="shuffled-name"></span><br />
+                <span class="sub-Caption">ehhfnslUelf hTe teseLts</span>
+            </h2>
+
+            <div class="guess-box">
+                <input class="guess-input" type="text" placeholder="enter pokemon name" autofocus />
+                <button class="submit-button" type="submit">Go!</button>
+                <button class="skip-button">Skip</button>
+            </div>
+        </main>
+        <footer>
+            <div class="scorekeeper">
+                <p>Score: <span class="users-score">0</span></p>
+                <p>Out of: <span class="gamesPlayed">0</span></p>
+            </div>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
